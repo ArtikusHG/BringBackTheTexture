@@ -1,0 +1,9 @@
+Package: com.artikus.bringbackthetexture
+Name: BringBackTheTexture
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A little tweak that brings back the background texture that was removed from the notes app in iOS 14.
+Maintainer: ArtikusHG
+Author: ArtikusHG
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
