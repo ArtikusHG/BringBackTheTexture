@@ -12,6 +12,8 @@ UIImage *darkBg;
 %end
 
 %ctor {
-  bg = [UIImage imageNamed:@"notesbg_light" inBundle:[NSBundle bundleWithPath:@"/var/mobile/Documents/"]];
-  darkBg = [UIImage imageNamed:@"notesbg_dark" inBundle:[NSBundle bundleWithPath:@"/var/mobile/Documents/"]];
+  /*bg = [UIImage imageNamed:@"notesbg_light" inBundle:[NSBundle bundleWithPath:@"/var/mobile/Documents/"]];
+  darkBg = [UIImage imageNamed:@"notesbg_dark" inBundle:[NSBundle bundleWithPath:@"/var/mobile/Documents/"]];*/
+bg = [UIImage imageNamed:@"notesbg_light" inBundle:[NSBundle bundleWithPath:@"/Library/BringBackTheTexture/"]];
+  darkBg = [UIImage imageNamed:@"notesbg_dark" inBundle:[NSBundle bundleWithPath:@"/Library/BringBackTheTexture/"]];
 }
